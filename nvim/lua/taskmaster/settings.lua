@@ -1,3 +1,4 @@
+---@diagnostic disable: undefined-global
 -- General options
 vim.opt.backspace = "2" -- Allow backspacing over everything in insert mode
 vim.opt.showcmd = true -- Show (partial) command in the status line

@@ -1,3 +1,8 @@
 return{
-  'udalov/kotlin-vim'
+  "udalov/kotlin-vim",
+  ft = "kotlin",
+  config = function()
+    -- Optional: Customize any settings if needed
+  end
 }
+

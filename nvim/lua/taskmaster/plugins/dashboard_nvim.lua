@@ -17,15 +17,19 @@ return {
         },
         center = {
           { icon = '  ',desc = 'New File', group = '@property', action = 'enew', key = 'N' },
-	  { icon = '  ', desc = 'Find File           ', action = 'Telescope find_files', key = 'F' },
+      	  { icon = '  ', desc = 'Find File           ', action = 'Telescope find_files', key = 'F' },
           { icon = '  ', desc = 'Recent Files        ', action = 'Telescope oldfiles', key = 'R' },
           { icon = '  ', desc = 'Search Text         ', action = 'Telescope live_grep', key = 'S' },
-          { icon = '  ', desc = 'Configuration       ', action = ':e ~/.config/nvim/lua/taskmaster/map.lua', key = 'C' },
-          { icon = '⚓ ', desc = 'Lazy Package Manager  ', action = ':Lazy', key = 'L' },
+          { icon = '  ', desc = 'Configuration       ', action = 'Telescope find_files cwd=~/.config/nvim', key = 'C' },
+          { icon = '⚓ ', desc = 'Lazy Package Manager', action = ':Lazy', key = 'L' },
+          { icon = '󰿅  ', desc = 'Quit                 ', action = ':q!', key = 'Q' },
 
-},
+        },
         footer = { ' WELCOME MR. TASKMASTER!' },
       },
     }
   end,
 }
+
+
+
